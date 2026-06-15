@@ -3,9 +3,9 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo "Creating deployment package"
       - zip lambda.zip lambda_function.py
 
 artifacts:
   files:
     - lambda.zip
+    
